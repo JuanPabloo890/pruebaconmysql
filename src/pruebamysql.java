@@ -42,6 +42,7 @@ public class pruebamysql {
                                 cedula.setText(String.valueOf(cedula));
                                 nombre.setText(nombree);
                                 fechaN.setText(fechaaN);
+                                String sign=signo.getSelectedItem().toString();
 
                                 JOptionPane.showMessageDialog(marco,"Estudiante encontrado");
                             } else {
